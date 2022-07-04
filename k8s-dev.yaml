@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: py-ms
+spec:
+  containers:
+  - name: py-ms
+    image: sergeydz/py-ms
